@@ -26,7 +26,7 @@ cd Detecting_LLM_AI_Arabic_Text
 ```
 ---
 
-## 🚀 **Training the Model**  
+## **Training the Model**  
 To train the model, run the following command:  
 ```bash
 python scripts/train.py
