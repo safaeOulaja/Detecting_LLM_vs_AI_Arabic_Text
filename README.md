@@ -40,20 +40,20 @@ This script:
 
 ---
 
-## 📊 **Model & Evaluation**  
-### 🔹 **Architecture**  
+## **Model & Evaluation**  
+###  **Architecture**  
 - **Base Model:** `aubmindlab/bert-base-arabertv02`  
 - **Tokenizer:** `AutoTokenizer`  
 - **Classification Head:** Fully connected layer with **2 output neurons** (binary classification).  
 
-### 🔹 **Training Settings**  
+###  **Training Settings**  
 - **Batch Size:** `16`  
 - **Max Sequence Length:** `256`  
 - **Learning Rate:** `2e-5`  
 - **Optimizer:** AdamW  
 - **Epochs:** `3`  
 
-### 🔹 **Evaluation Metrics**  
+### **Evaluation Metrics**  
 - **ROC-AUC Score**  
 - **Accuracy**  
 
@@ -64,7 +64,7 @@ Dev Accuracy: 99.83%
 ```
 ---
 
-## 🤝 **Contributing**  
+## **Contributing**  
 Contributions are welcome! Please follow these steps:  
 1. **Fork** the repository  
 2. Create a **new branch** (`feature-branch`)  
@@ -72,7 +72,7 @@ Contributions are welcome! Please follow these steps:
 4. **Push** the branch and create a Pull Request  
 ---
 
-## ✨ **Acknowledgments**  
+## **Acknowledgments**  
 - **Kaggle Competition** – For providing the plateform for this competition
 - **Hugging Face** – For their powerful **transformers library**  
 - **AUB Mind Lab** – For developing **AraBERT**  
